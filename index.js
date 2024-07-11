@@ -7,6 +7,7 @@ import userRoute from "./route/userRoute.js"
 import contentRoute from "./route/contentRoute.js"
 import userGetRoute from "./route/userGetRoute.js"
 import contentGetRoute from "./route/contentGetRoute.js"
+import deleteContent from "./route/deleteContentRoute.js"
 
 const app=express();
 
@@ -34,4 +35,5 @@ app.use("/user",userRoute)
 app.use("/content",contentRoute)
 app.use("/user",userGetRoute)
 app.use("/content",contentGetRoute)
+app.use("/content",deleteContent)
 
