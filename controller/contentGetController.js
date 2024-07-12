@@ -1,4 +1,4 @@
-import notesModel from "../model/model4.js";
+// import notesModel from "../model/model4.js";
 
 export const contentGet=async(req,res)=>{
     try {
@@ -10,7 +10,7 @@ export const contentGet=async(req,res)=>{
 }
 
 
-// import notesModel from "../model/model4.js";
+import notesModel from "../model/model4.js";
 
 export const contentGet2=async(req,res)=>{
     try {
