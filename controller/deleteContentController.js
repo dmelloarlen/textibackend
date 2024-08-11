@@ -7,7 +7,7 @@ export const deleteContent=async(req,res)=>{
         if(notesGet.length==0){
             res.send("id not found")
         }else{
-            res.json({message:"Data deleted sucessfullTy!!!!!"})
+            res.json({message:"Data deleted sucessfully!!"})
         }
     } catch (error) {
         res.status(500).json({message:"Internal error"})        
